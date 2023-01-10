@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background: #121212;
+}
+:root {
+    --gradient:linear-gradient(to right,#1c1e21,#fff);
+}
+.firstwrapper {
+    border-right: 2px solid #262626; 
+    background-color: black;
+    height: 1000px;   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+}
+/* .main-home {
+    position: absolute;
+    width: calc(1001%-300px);
+    top:0;
+    left: 300px;
+    background: #fff;
+} */
+a:hover .icons {
+    background-color: #000000;
+}
+.icons {
+    display: flex;
+    text-align: center;
+    gap: 13px;
+    padding: 20px 20px;
+}
+.instaheader {
+    padding: 30px 14px;
+    width:140px;
+}
+.imgtxt {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(250,250,250);
+    font-size: 14px;
+    font-weight: 600;
+}
+.smallprofile {
+    border-radius:15px;
+    width:25px;
+}
+.secondwrapper {
+    margin-left: 250px;
+    padding: 30px 119px;
+}
+@media screen and (max-width: 600px) {
+
+}
+.storiesheader {
+    border: 1px solid #262626;
+    width: 470px;
+    border-radius: 10px;
+    background-color: #000000;
+}
+.storieswrapper {
+    display: flex;
+    gap: 15px;
+    padding-left: 15px;
+}
+.stories {
+    padding: 10px 0; 
+}
+.stories p{
+    font-size: 11px;
+    color: #fff;
+}
+.bigprofile {
+    border-radius: 50%;
+    width: 55px;
+    border: 2px solid #e2336b;
+}
+.headerwords {
+    display: flex;
+    gap: 6px;
+    padding: 15px 10px;
+}
+.headerwords p {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+.content img {
+    width:470px;
+    height: 587.17px;
+}
+.header {
+    border: 1px solid #262626;
+    width: 470px;
+    border-radius: 10px;
+    background-color: #000000;
+}
+.post {
+    padding-top: 20px;
+}
+.dots {
+    padding-left: 330px;
+}
+.iconscontent {
+    display: flex;
+    gap:15px;
+}
+.saveicon {
+    padding-left: 300px;
+}
+.likeicon {
+    padding-top: 10px;
+    gap:5px;
+    display: flex;
+}
+.likeicon p {
+    color: white;
+}
+.letterings {
+    color: white;
+    font-size: 12px;
+    
+}
+.container {
+    border: 0px 1px 1px 1px solid #262626;
+    width: 470px;
+    border-radius: 10px;
+    padding: 25px 20px;
+    background-color: #000000;
+}
+.comment {
+    display: flex;
+    gap:7px;
+    padding-top:8px;
+    padding-bottom: 0.1px;
+    border-top: 1px solid white;
+    background-color: #000000;
+}
+.commmentbar {
+    background-color:#000000
+}
+.comment p {
+    color:#ADDBFF;
+    padding-left:180px;
+}
+.thirdwrapper {
+        margin-left: 720px;
+}
